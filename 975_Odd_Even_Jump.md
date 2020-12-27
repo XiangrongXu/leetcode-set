@@ -90,4 +90,5 @@ even jump同理，只是在排序时需要按照元素降序，下标升序进�
 最后，按照倒序进行统计，统计能够到达终点的数量
 
 space complexity: O(N)
+
 time complexity: 排序的复杂度为O(NlogN)，之后，遍历序列操作单调栈的复杂度为O(N)，统计的时候复杂度为O(N)，故，TC = O(NlogN)
